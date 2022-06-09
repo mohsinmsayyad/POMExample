@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [suite]">
+  <test thread-count="5" verbose="0" name="test suite(failed)">
+    <classes>
+      <class name="testcases.AppleTest">
+        <methods>
+          <include name="reportsetUp"/>
+          <include name="setUpBrowser"/>
+          <include name="login_into_account_with_wrong_password_test"/>
+          <include name="click_on_bag_test"/>
+        </methods>
+      </class> <!-- testcases.AppleTest -->
+    </classes>
+  </test> <!-- test suite(failed) -->
+</suite> <!-- Failed suite [suite] -->
