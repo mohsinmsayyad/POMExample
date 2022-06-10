@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 2.293 s <<< FAILURE! - in TestSuite
-testcases.AppleTest.setUpBrowser  Time elapsed: 0.999 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 2.508 s <<< FAILURE! - in TestSuite
+testcases.AppleTest.setUpBrowser  Time elapsed: 1.242 s  <<< FAILURE!
 java.lang.NullPointerException
 	at library.SelectBrowser.StartBrowser(SelectBrowser.java:35)
 	at testcases.AppleTest.setUpBrowser(AppleTest.java:51)

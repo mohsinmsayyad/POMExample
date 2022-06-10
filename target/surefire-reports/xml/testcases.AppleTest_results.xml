@@ -4,12 +4,12 @@
            failures="1"
            errors="0"
            skipped="2"
-           time="0.003">
+           time="0.007">
     <properties></properties>
 
             <testcase
                 name="setUpBrowser"
-                time="0.003"
+                time="0.007"
                 classname="testcases.AppleTest">
 
             <failure type="java.lang.NullPointerException" message="(null)">

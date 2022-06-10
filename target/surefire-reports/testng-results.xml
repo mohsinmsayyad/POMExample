@@ -2,16 +2,16 @@
 <testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="suite" duration-ms="79" started-at="2022-06-09T16:02:46Z" finished-at="2022-06-09T16:02:46Z">
+  <suite name="suite" duration-ms="61" started-at="2022-06-10T18:46:09Z" finished-at="2022-06-10T18:46:09Z">
     <groups>
     </groups>
-    <test name="test suite" duration-ms="79" started-at="2022-06-09T16:02:46Z" finished-at="2022-06-09T16:02:46Z">
+    <test name="test suite" duration-ms="61" started-at="2022-06-10T18:46:09Z" finished-at="2022-06-10T18:46:09Z">
       <class name="testcases.AppleTest">
-        <test-method status="PASS" signature="reportsetUp()[pri:0, instance:testcases.AppleTest@4e9ba398]" name="reportsetUp" is-config="true" duration-ms="257" started-at="2022-06-09T16:02:45Z" finished-at="2022-06-09T16:02:46Z">
+        <test-method status="PASS" signature="reportsetUp()[pri:0, instance:testcases.AppleTest@6fc6f14e]" name="reportsetUp" is-config="true" duration-ms="237" started-at="2022-06-10T18:46:09Z" finished-at="2022-06-10T18:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportsetUp -->
-        <test-method status="FAIL" signature="setUpBrowser()[pri:0, instance:testcases.AppleTest@4e9ba398]" name="setUpBrowser" is-config="true" duration-ms="3" started-at="2022-06-09T16:02:46Z" finished-at="2022-06-09T16:02:46Z">
+        <test-method status="FAIL" signature="setUpBrowser()[pri:0, instance:testcases.AppleTest@6fc6f14e]" name="setUpBrowser" is-config="true" duration-ms="7" started-at="2022-06-10T18:46:09Z" finished-at="2022-06-10T18:46:09Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -51,7 +51,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="click_on_bag_test()[pri:1, instance:testcases.AppleTest@4e9ba398]" name="click_on_bag_test" duration-ms="0" started-at="2022-06-09T16:02:46Z" finished-at="2022-06-09T16:02:46Z">
+        <test-method status="SKIP" signature="click_on_bag_test()[pri:1, instance:testcases.AppleTest@6fc6f14e]" name="click_on_bag_test" duration-ms="0" started-at="2022-06-10T18:46:09Z" finished-at="2022-06-10T18:46:09Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -91,7 +91,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_bag_test -->
-        <test-method status="SKIP" signature="login_into_account_with_wrong_password_test()[pri:2, instance:testcases.AppleTest@4e9ba398]" name="login_into_account_with_wrong_password_test" duration-ms="0" started-at="2022-06-09T16:02:46Z" finished-at="2022-06-09T16:02:46Z">
+        <test-method status="SKIP" signature="login_into_account_with_wrong_password_test()[pri:2, instance:testcases.AppleTest@6fc6f14e]" name="login_into_account_with_wrong_password_test" duration-ms="0" started-at="2022-06-10T18:46:09Z" finished-at="2022-06-10T18:46:09Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
